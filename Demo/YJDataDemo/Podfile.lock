@@ -1,0 +1,17 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - YJDateCenter (1.0.0):
+    - FMDB
+
+DEPENDENCIES:
+  - YJDateCenter
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  YJDateCenter: 75dcdd44f5cf75c30ad4cda4246f73ebfddc0788
+
+PODFILE CHECKSUM: 387b93bba5f1a549f642e391eb3af92e11eb3c77
+
+COCOAPODS: 1.2.1

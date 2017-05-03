@@ -15,16 +15,16 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "YJDateCenter"
-  s.version      = "1.0.0"
-  s.summary      = "A short description of YJDateCenter."
+  s.name         = "YJDataCenter"
+  s.version      = "1.0.1"
+  s.summary      = "数据缓存和数据库的操作合集"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = 'A short description of YJDateCenter is very kind for use'
+  s.description  = '数据缓存和数据库的操作合集，让你更方便和快捷的集成'
 
   s.homepage     = "https://github.com/full-of-fire/YJDataCenter.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"

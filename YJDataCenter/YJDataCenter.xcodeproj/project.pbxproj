@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F4D3B169B1E4E559FEC53FD /* libPods-YJDataCenter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F769080F465F507C0F1ED776 /* libPods-YJDataCenter.a */; };
 		3961A0831EB8878F00BD9F47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3961A0821EB8878F00BD9F47 /* main.m */; };
 		3961A0861EB8878F00BD9F47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3961A0851EB8878F00BD9F47 /* AppDelegate.m */; };
 		3961A0891EB8878F00BD9F47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3961A0881EB8878F00BD9F47 /* ViewController.m */; };
@@ -17,6 +18,7 @@
 		3961A0AC1EB8880B00BD9F47 /* YJCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3961A0AB1EB8880B00BD9F47 /* YJCache.m */; };
 		3961A0B11EB8881800BD9F47 /* JKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3961A0AE1EB8881800BD9F47 /* JKDBHelper.m */; };
 		3961A0B21EB8881800BD9F47 /* JKDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3961A0B01EB8881800BD9F47 /* JKDBModel.m */; };
+		7C01D5D109BCA6CFF65C6F11 /* libPods-YJDataCenterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D67050A7E2E223274B5145 /* libPods-YJDataCenterTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33D67050A7E2E223274B5145 /* libPods-YJDataCenterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJDataCenterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3961A07E1EB8878F00BD9F47 /* YJDataCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJDataCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3961A0821EB8878F00BD9F47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3961A0841EB8878F00BD9F47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		3961A0AE1EB8881800BD9F47 /* JKDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKDBHelper.m; sourceTree = "<group>"; };
 		3961A0AF1EB8881800BD9F47 /* JKDBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKDBModel.h; sourceTree = "<group>"; };
 		3961A0B01EB8881800BD9F47 /* JKDBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKDBModel.m; sourceTree = "<group>"; };
+		9BE623752B2C0EA5E509835E /* Pods-YJDataCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJDataCenter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJDataCenter/Pods-YJDataCenter.debug.xcconfig"; sourceTree = "<group>"; };
+		AF6DC91A9F1FDE3CEA9C67B1 /* Pods-YJDataCenterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJDataCenterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJDataCenterTests/Pods-YJDataCenterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAD08E82D3F29B0BF8B21F56 /* Pods-YJDataCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJDataCenter.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJDataCenter/Pods-YJDataCenter.release.xcconfig"; sourceTree = "<group>"; };
+		EF761F2A24E50766FBD65D6C /* Pods-YJDataCenterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJDataCenterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJDataCenterTests/Pods-YJDataCenterTests.release.xcconfig"; sourceTree = "<group>"; };
+		F769080F465F507C0F1ED776 /* libPods-YJDataCenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJDataCenter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F4D3B169B1E4E559FEC53FD /* libPods-YJDataCenter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C01D5D109BCA6CFF65C6F11 /* libPods-YJDataCenterTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +85,8 @@
 				3961A0801EB8878F00BD9F47 /* YJDataCenter */,
 				3961A09A1EB8878F00BD9F47 /* YJDataCenterTests */,
 				3961A07F1EB8878F00BD9F47 /* Products */,
+				C01CD4FC760C498C069DBB2B /* Pods */,
+				8662B73C86DC397587CF4A2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +162,26 @@
 			path = YJSqliteORM;
 			sourceTree = "<group>";
 		};
+		8662B73C86DC397587CF4A2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F769080F465F507C0F1ED776 /* libPods-YJDataCenter.a */,
+				33D67050A7E2E223274B5145 /* libPods-YJDataCenterTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C01CD4FC760C498C069DBB2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BE623752B2C0EA5E509835E /* Pods-YJDataCenter.debug.xcconfig */,
+				CAD08E82D3F29B0BF8B21F56 /* Pods-YJDataCenter.release.xcconfig */,
+				AF6DC91A9F1FDE3CEA9C67B1 /* Pods-YJDataCenterTests.debug.xcconfig */,
+				EF761F2A24E50766FBD65D6C /* Pods-YJDataCenterTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3961A0A01EB8878F00BD9F47 /* Build configuration list for PBXNativeTarget "YJDataCenter" */;
 			buildPhases = (
+				00D10E73FA92428F9C6CA076 /* [CP] Check Pods Manifest.lock */,
 				3961A07A1EB8878F00BD9F47 /* Sources */,
 				3961A07B1EB8878F00BD9F47 /* Frameworks */,
 				3961A07C1EB8878F00BD9F47 /* Resources */,
+				C54CBA8B37C0C4C5B1513658 /* [CP] Embed Pods Frameworks */,
+				135F2F7E97A229F4245F4650 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3961A0A31EB8878F00BD9F47 /* Build configuration list for PBXNativeTarget "YJDataCenterTests" */;
 			buildPhases = (
+				1FD952F4CB38C6599E9C514C /* [CP] Check Pods Manifest.lock */,
 				3961A0931EB8878F00BD9F47 /* Sources */,
 				3961A0941EB8878F00BD9F47 /* Frameworks */,
 				3961A0951EB8878F00BD9F47 /* Resources */,
+				4A09F86492DDD41ED37F73E3 /* [CP] Embed Pods Frameworks */,
+				F45F30EEA04E64D620194700 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,6 +284,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00D10E73FA92428F9C6CA076 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		135F2F7E97A229F4245F4650 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJDataCenter/Pods-YJDataCenter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FD952F4CB38C6599E9C514C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A09F86492DDD41ED37F73E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJDataCenterTests/Pods-YJDataCenterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C54CBA8B37C0C4C5B1513658 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJDataCenter/Pods-YJDataCenter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F45F30EEA04E64D620194700 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJDataCenterTests/Pods-YJDataCenterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3961A07A1EB8878F00BD9F47 /* Sources */ = {
@@ -389,6 +520,7 @@
 		};
 		3961A0A11EB8878F00BD9F47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BE623752B2C0EA5E509835E /* Pods-YJDataCenter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YJDataCenter/Info.plist;
@@ -400,6 +532,7 @@
 		};
 		3961A0A21EB8878F00BD9F47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD08E82D3F29B0BF8B21F56 /* Pods-YJDataCenter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YJDataCenter/Info.plist;
@@ -411,6 +544,7 @@
 		};
 		3961A0A41EB8878F00BD9F47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF6DC91A9F1FDE3CEA9C67B1 /* Pods-YJDataCenterTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = YJDataCenterTests/Info.plist;
@@ -423,6 +557,7 @@
 		};
 		3961A0A51EB8878F00BD9F47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF761F2A24E50766FBD65D6C /* Pods-YJDataCenterTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = YJDataCenterTests/Info.plist;
